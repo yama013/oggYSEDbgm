@@ -1,4 +1,4 @@
-// itiran_YSF.cpp : ƒCƒ“ƒvƒŠƒƒ“ƒe[ƒVƒ‡ƒ“ ƒtƒ@ƒCƒ‹
+// itiran_YSF.cpp : ã‚¤ãƒ³ãƒ—ãƒªãƒ¡ãƒ³ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³ ãƒ•ã‚¡ã‚¤ãƒ«
 //
 
 #include "stdafx.h"
@@ -12,7 +12,7 @@ static char THIS_FILE[] = __FILE__;
 #endif
 
 /////////////////////////////////////////////////////////////////////////////
-// Citiran_YSF ƒ_ƒCƒAƒƒO
+// Citiran_YSF ãƒ€ã‚¤ã‚¢ãƒ­ã‚°
 
 extern CString fnn;
 
@@ -20,7 +20,7 @@ Citiran_YSF::Citiran_YSF(CWnd* pParent /*=NULL*/)
 	: CDialog(Citiran_YSF::IDD, pParent)
 {
 	//{{AFX_DATA_INIT(Citiran_YSF)
-		// ƒƒ‚ - ClassWizard ‚Í‚±‚ÌˆÊ’u‚Éƒ}ƒbƒsƒ“ƒO—p‚Ìƒ}ƒNƒ‚ð’Ç‰Á‚Ü‚½‚Ííœ‚µ‚Ü‚·B
+		// ãƒ¡ãƒ¢ - ClassWizard ã¯ã“ã®ä½ç½®ã«ãƒžãƒƒãƒ”ãƒ³ã‚°ç”¨ã®ãƒžã‚¯ãƒ­ã‚’è¿½åŠ ã¾ãŸã¯å‰Šé™¤ã—ã¾ã™ã€‚
 	//}}AFX_DATA_INIT
 }
 
@@ -41,48 +41,48 @@ BEGIN_MESSAGE_MAP(Citiran_YSF, CDialog)
 END_MESSAGE_MAP()
 
 /////////////////////////////////////////////////////////////////////////////
-// Citiran_YSF ƒƒbƒZ[ƒW ƒnƒ“ƒhƒ‰
+// Citiran_YSF ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ ãƒãƒ³ãƒ‰ãƒ©
 
 char tiys3[][128]={
-"01.Dancing on the road(•s–¾)",
-"02.—\Š´ ƒXƒeƒBƒNƒX(ƒƒjƒ…[)",
-"03.–fˆÕ‚ÌŠXƒŒƒhƒ‚ƒ“ƒg(ƒŒƒhƒ‚ƒ“ƒg‚Ì’¬)",
-"04.Ã‚©‚È(’·˜V‚È‚Ç‚Ì‰Æ)",
-"05.Welcome!!(‚¨“X)",
-"06.–`Œ¯‚Ö‚Ì˜‹È(ƒ}ƒbƒv)",
-"07.—ƒ‚ðŽ‚Á‚½­”N(ƒtƒB[ƒ‹ƒhƒ}ƒbƒv)",
-"08.Be careful(ƒeƒBƒOƒŒ[‚ÌÌÎê)",
-"09.Ž½•‚Ì–‚b(ƒ{ƒXí)",
-"10.ƒCƒ‹ƒo[ƒ“ƒY‚ÌˆâÕ(ƒCƒ‹ƒo[ƒ“ƒY‚ÌˆâÕ)",
-"11.ŽÜ”M‚ÌŽ€“¬(—nŠâ’n‘Ñ)",
-"12.ˆÃ•‚Ìã©(ƒeƒBƒOƒŒ[‚ÌÌÎê‰œ)",
-"13.Ž€_‚Ì“dŒ‚(ƒ{ƒXí)",
-"14.‚¢‚Á‚Æ‚«‚Ì–²(ƒQ[ƒ€ƒI[ƒo[)",
-"15.ŒµŠi‚È‚é“¬Žu(ƒGƒ‹ƒ_[ƒ€ŽR–¬)",
-"16.ˆ£D‚ÌƒgƒƒCƒ‰ƒCƒg(ƒŒƒhƒ‚ƒ“ƒg‚Ì’¬ Šë‹@Œã)",
-"17.ƒoƒŒƒXƒ^ƒCƒ“é(ƒoƒŒƒXƒ^ƒCƒ“é“à)",
-"18.Žœˆ¤‚Ì‹F‚è(ƒoƒŒƒXƒ^ƒCƒ“é¹“°)",
-"19.Œõ‚è‚ÌŒ®(ƒGƒ“ƒfƒBƒ“ƒOŒã)",
-"20.Žž‚Ì••ˆó(ƒoƒŒƒXƒ^ƒCƒ“éŽžŒv“ƒ)",
-"21.”j–Å‚Ö‚ÌŒÛ“®(ƒWƒFƒmƒX“‡)",
-"22.‰^–½‚Ì“ƒ(ƒWƒFƒmƒX“‡[•”)",
-"23.‚±‚ê‚ðŒ©‚æII(ƒjƒRƒ‰ƒXí)",
-"24.Å‹­‚Ì“G(ƒKƒ‹ƒoƒ‰ƒ“í)",
-"25.—·—§‚¿‚Ì’©(ƒNƒŠƒAŒã‚ÌƒŒƒhƒ‚ƒ“ƒg‚Ì’¬)",
-"26.Wanderers from Ys(ƒGƒ“ƒfƒBƒ“ƒO(“®‰æ))",
-"27.Dear My Brother(ƒGƒŒƒiAƒ`ƒFƒXƒ^[‚Æ‚ÌƒCƒxƒ“ƒg)",
-"28.ˆ¤‚µ‚ÌƒGƒŒƒi(ƒGƒŒƒi‚Ìƒe[ƒ})",
-"29.Introduction!!(ƒŒƒhƒ‚ƒ“ƒg‚Ì’¬‚Å‚ÌƒCƒxƒ“ƒg)",
-"30.The Theme of Chester(ƒ`ƒFƒXƒ^[‚Ìƒe[ƒ})",
-"31.Chop!!(ƒ{ƒXí)",
-"32.Believe in my heart(ƒNƒŠƒA’¼‘O‚ÌƒŒƒhƒ‚ƒ“ƒg‚Ì’¬)",
-"33.—\Š´ ƒXƒeƒBƒNƒX(ƒI[ƒvƒjƒ“ƒO(“®‰æ))",
-"34.ˆ¤‚µ‚ÌƒGƒŒƒi(ƒKƒ‹ƒoƒ‰ƒ““‡•ö‰ó(“®‰æ))"
+"01.Dancing on the road(é»’ãƒ”ãƒƒã‚«ãƒ¼ãƒ‰æ’ƒç ´å¾Œ)",
+"02.äºˆæ„Ÿ ï¼ã‚¹ãƒ†ã‚£ã‚¯ã‚¹ï¼(ãƒ¡ãƒ‹ãƒ¥ãƒ¼)",
+"03.è²¿æ˜“ã®è¡—ãƒ¬ãƒ‰ãƒ¢ãƒ³ãƒˆ(ãƒ¬ãƒ‰ãƒ¢ãƒ³ãƒˆã®ç”º)",
+"04.é™ã‹ãªåˆ»(é•·è€ãªã©ã®å®¶)",
+"05.Welcome!!(ãŠåº—)",
+"06.å†’é™ºã¸ã®åºæ›²(ãƒžãƒƒãƒ—)",
+"07.ç¿¼ã‚’æŒã£ãŸå°‘å¹´(ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ãƒžãƒƒãƒ—)",
+"08.Be careful(ãƒ†ã‚£ã‚°ãƒ¬ãƒ¼ã®æŽ¡çŸ³å ´)",
+"09.æ¼†é»’ã®é­”ç£(ãƒœã‚¹æˆ¦)",
+"10.ã‚¤ãƒ«ãƒãƒ¼ãƒ³ã‚ºã®éºè·¡(ã‚¤ãƒ«ãƒãƒ¼ãƒ³ã‚ºã®éºè·¡)",
+"11.ç¼ç†±ã®æ­»é—˜(æº¶å²©åœ°å¸¯)",
+"12.æš—é»’ã®ç½ (ãƒ†ã‚£ã‚°ãƒ¬ãƒ¼ã®æŽ¡çŸ³å ´å¥¥)",
+"13.æ­»ç¥žã®é›»æ’ƒ(ãƒœã‚¹æˆ¦)",
+"14.ã„ã£ã¨ãã®å¤¢(ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼)",
+"15.åŽ³æ ¼ãªã‚‹é—˜å¿—(ã‚¨ãƒ«ãƒ€ãƒ¼ãƒ å±±è„ˆ)",
+"16.å“€æ„ã®ãƒˆãƒ¯ã‚¤ãƒ©ã‚¤ãƒˆ(ãƒ¬ãƒ‰ãƒ¢ãƒ³ãƒˆã®ç”º å±æ©Ÿå¾Œ)",
+"17.ãƒãƒ¬ã‚¹ã‚¿ã‚¤ãƒ³åŸŽ(ãƒãƒ¬ã‚¹ã‚¿ã‚¤ãƒ³åŸŽå†…)",
+"18.æ…ˆæ„›ã®ç¥ˆã‚Š(ãƒãƒ¬ã‚¹ã‚¿ã‚¤ãƒ³åŸŽè–å ‚)",
+"19.å…‰ã‚Šã®éµ(ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°å¾Œ)",
+"20.æ™‚ã®å°å°(ãƒãƒ¬ã‚¹ã‚¿ã‚¤ãƒ³åŸŽæ™‚è¨ˆå¡”)",
+"21.ç ´æ»…ã¸ã®é¼“å‹•(ã‚¸ã‚§ãƒŽã‚¹å³¶)",
+"22.é‹å‘½ã®å¡”(ã‚¸ã‚§ãƒŽã‚¹å³¶æ·±éƒ¨)",
+"23.ã“ã‚Œã‚’è¦‹ã‚ˆï¼ï¼(ãƒ‹ã‚³ãƒ©ã‚¹æˆ¦)",
+"24.æœ€å¼·ã®æ•µ(ã‚¬ãƒ«ãƒãƒ©ãƒ³æˆ¦)",
+"25.æ—…ç«‹ã¡ã®æœ(ã‚¯ãƒªã‚¢å¾Œã®ãƒ¬ãƒ‰ãƒ¢ãƒ³ãƒˆã®ç”º)",
+"26.Wanderers from Ys(ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°(å‹•ç”»))",
+"27.Dear My Brother(ã‚¨ãƒ¬ãƒŠã€ãƒã‚§ã‚¹ã‚¿ãƒ¼ã¨ã®ã‚¤ãƒ™ãƒ³ãƒˆ)",
+"28.æ„›ã—ã®ã‚¨ãƒ¬ãƒŠ(ã‚¨ãƒ¬ãƒŠã®ãƒ†ãƒ¼ãƒž)",
+"29.Introduction!!(ãƒ¬ãƒ‰ãƒ¢ãƒ³ãƒˆã®ç”ºã§ã®ã‚¤ãƒ™ãƒ³ãƒˆ)",
+"30.The Theme of Chester(ãƒã‚§ã‚¹ã‚¿ãƒ¼ã®ãƒ†ãƒ¼ãƒž)",
+"31.Chop!!(ãƒœã‚¹æˆ¦)",
+"32.Believe in my heart(ã‚¯ãƒªã‚¢ç›´å‰ã®ãƒ¬ãƒ‰ãƒ¢ãƒ³ãƒˆã®ç”º)",
+"33.äºˆæ„Ÿ ï¼ã‚¹ãƒ†ã‚£ã‚¯ã‚¹ï¼(ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°(å‹•ç”»))",
+"34.æ„›ã—ã®ã‚¨ãƒ¬ãƒŠ(ã‚¬ãƒ«ãƒãƒ©ãƒ³å³¶å´©å£Š(å‹•ç”»))"
 };
 
 void Citiran_YSF::OnDblclkList1() 
 {
-	// TODO: ‚±‚ÌˆÊ’u‚ÉƒRƒ“ƒgƒ[ƒ‹’Ê’mƒnƒ“ƒhƒ‰—p‚ÌƒR[ƒh‚ð’Ç‰Á‚µ‚Ä‚­‚¾‚³‚¢
+	// TODO: ã“ã®ä½ç½®ã«ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«é€šçŸ¥ãƒãƒ³ãƒ‰ãƒ©ç”¨ã®ã‚³ãƒ¼ãƒ‰ã‚’è¿½åŠ ã—ã¦ãã ã•ã„
 	CString s,ss;	s=tiys3[m_list.GetItemData(m_list.GetCurSel())];
 	ss=s.Left(2);ret=_tstoi(ss)-1;
 	fnn=s.Mid(3);
@@ -100,12 +100,12 @@ BOOL Citiran_YSF::OnInitDialog()
 {
 	CDialog::OnInitDialog();
 	
-	// TODO: ‚±‚ÌˆÊ’u‚É‰Šú‰»‚Ì•â‘«ˆ—‚ð’Ç‰Á‚µ‚Ä‚­‚¾‚³‚¢
+	// TODO: ã“ã®ä½ç½®ã«åˆæœŸåŒ–ã®è£œè¶³å‡¦ç†ã‚’è¿½åŠ ã—ã¦ãã ã•ã„
 	int dx;
 	for(int i=0;i<(34);i++)
 	{
 		CString s;
-		s=tiys3[i];if(s.Left(2)=="š"){}else{s="ZW2_";s=tiys3[i];}
+		s=tiys3[i];if(s.Left(2)=="â˜…"){}else{s="ZW2_";s=tiys3[i];}
 		dx= m_list.AddString(s);
 		m_list.SetItemData(dx,i);	
 	}
@@ -118,6 +118,6 @@ BOOL Citiran_YSF::OnInitDialog()
 	if(ret!=0) m_list.SetCurSel(ret);
 
 	m_list.SetFocus();
-	return FALSE;  // ƒRƒ“ƒgƒ[ƒ‹‚ÉƒtƒH[ƒJƒX‚ðÝ’è‚µ‚È‚¢‚Æ‚«A–ß‚è’l‚Í TRUE ‚Æ‚È‚è‚Ü‚·
-	              // —áŠO: OCX ƒvƒƒpƒeƒB ƒy[ƒW‚Ì–ß‚è’l‚Í FALSE ‚Æ‚È‚è‚Ü‚·
+	return FALSE;  // ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«ã«ãƒ•ã‚©ãƒ¼ã‚«ã‚¹ã‚’è¨­å®šã—ãªã„ã¨ãã€æˆ»ã‚Šå€¤ã¯ TRUE ã¨ãªã‚Šã¾ã™
+	              // ä¾‹å¤–: OCX ãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ ãƒšãƒ¼ã‚¸ã®æˆ»ã‚Šå€¤ã¯ FALSE ã¨ãªã‚Šã¾ã™
 }
